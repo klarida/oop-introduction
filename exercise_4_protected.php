@@ -17,6 +17,7 @@ class Beverage
     protected string $color;
     protected float $price;
     protected string $temperature;
+
     public function __construct(string $color, float $price)
     {
         $this->color = $color;
@@ -55,7 +56,6 @@ public  function __construct(string $color, float $price , string $name, float $
 
 }
 $duvel = new beer('blond', 3.5, 'duvel',8.5);
-echo  $duvel ->alocoholPercentage;
+
 echo  $duvel ->getAlocoholPercentage();
-echo  $duvel ->color;
 echo  $duvel->getinfo();
