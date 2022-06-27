@@ -37,3 +37,5 @@ class Beverage
 
 $cola = new Beverage('black', 2 );
 $cola ->getinfo();
+
+?>
